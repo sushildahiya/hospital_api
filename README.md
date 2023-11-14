@@ -2,12 +2,12 @@
 The application uses Express.js for the server, MongoDB for data storage, and JSON Web Tokens (JWT) for authentication.
 
 ## Table of Contents
-> [ Features ]
-> [Installation]
-> [Usage]
-> [API Documentation]
-> [Folder Structure]
-> [Dependencies]
+- [ Features ]
+- [Installation]
+- [Usage]
+- [API Documentation]
+- [Folder Structure]
+- [Dependencies]
 
 #Features
 ##Doctor Management:
