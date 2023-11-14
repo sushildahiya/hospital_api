@@ -2,7 +2,7 @@
 The application uses Express.js for the server, MongoDB for data storage, and JSON Web Tokens (JWT) for authentication.
 
 ## Table of Contents
-> [Features]
+> [ Features ]
 > [Installation]
 > [Usage]
 > [API Documentation]
