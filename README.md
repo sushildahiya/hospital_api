@@ -23,49 +23,49 @@ The application uses Express.js for the server, MongoDB for data storage, and JS
 - Retrieve reports of patients with a specific status.
 
 
-#Installation
->Clone the Repository:
-git clone https://github.com/your-username/healthcare-management-system.git
-cd healthcare-management-system
+## Installation
+1. Clone the Repository:
+ - git clone https://github.com/your-username/healthcare-management-system.git
+ - cd healthcare-management-system
 
->Install Dependencies:
-npm install
+2. Install Dependencies:
+ - npm install
 
->Configure MongoDB:
-Set up a MongoDB database.
-Update the connection string in the config.js file.
+3. Configure MongoDB:
+ - Set up a MongoDB database.
+ - Update the connection string in the config.js file.
 
->Start the Application:
-npm start
-The application will be running at http://localhost:8000 by default.
+4. Start the Application:
+ - npm start
+ - The application will be running at http://localhost:8000 by default.
 
 
-#Usage
-##Doctor Registration:
-Endpoint: POST /doctors/register
-Create a new doctor account by providing required details.
+## Usage
+### Doctor Registration:
+- Endpoint: POST /doctors/register
+-Create a new doctor account by providing required details.
 
-##Doctor Sign-in:
-Endpoint: POST /doctors/sign-in
-Sign in as a doctor to obtain a JWT token for authentication.
+### Doctor Sign-in:
+- Endpoint: POST /doctors/sign-in
+- Sign in as a doctor to obtain a JWT token for authentication.
 
-##Patient Registration:
-Endpoint: POST /patients/register
-Register a new patient by providing necessary details.
+### Patient Registration:
+- Endpoint: POST /patients/register
+- Register a new patient by providing necessary details.
 
-##Create Patient Report:
-Endpoint: POST /patients/:id/create_report
-Create a new medical report for a specific patient.
+### Create Patient Report:
+- Endpoint: POST /patients/:id/create_report
+- Create a new medical report for a specific patient.
 
-##Retrieve All Reports of a Patient:
-Endpoint: GET /patients/:id/all_reports
-Get all medical reports of a specific patient.
+### Retrieve All Reports of a Patient:
+- Endpoint: GET /patients/:id/all_reports
+- Get all medical reports of a specific patient.
 
-##Retrieve Reports by Status:
-Endpoint: GET /reports/:status
-Retrieve reports of patients with a specific status.
+### Retrieve Reports by Status:
+- Endpoint: GET /reports/:status
+- Retrieve reports of patients with a specific status.
 
-#API Documentation
+## API Documentation
 This repository contains the implementation of controllers and routes for managing doctors, patients, and reports in a healthcare application. The controllers are organized into separate files, and the routes are defined in corresponding router files.
 
 Doctor Controller (controller/doctor.js)
