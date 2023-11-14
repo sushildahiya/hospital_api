@@ -14,8 +14,6 @@ module.exports.registerPatient = async function (req, res) {
 
     // If the patient exists, respond with existing patient details
     if (existingPatient !== null) {
-      const doctorName = await Doctor.findOne({ _id: existingPatient.doctor });
-
       return res.json(200, {
         message: "Patient already registered.",
         data: {
@@ -25,7 +23,7 @@ module.exports.registerPatient = async function (req, res) {
             last_name: existingPatient.last_name,
             contact_no: existingPatient.contact_no,
             email_address: existingPatient.email_address,
-            doctor: `Dr. ${doctorName.first_name.trim()} ${doctorName.last_name.trim()}`,
+            doctor: existingPatient.doctor,
             temperature: existingPatient.temperature,
             reports: existingPatient.reports
           }
