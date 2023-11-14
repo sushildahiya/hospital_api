@@ -1,4 +1,4 @@
-#Hospital API
+# Hospital API
 The application uses Express.js for the server, MongoDB for data storage, and JSON Web Tokens (JWT) for authentication.
 
 #Table of Contents
