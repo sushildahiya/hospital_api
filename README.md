@@ -2,25 +2,25 @@
 The application uses Express.js for the server, MongoDB for data storage, and JSON Web Tokens (JWT) for authentication.
 
 ## Table of Contents
-- [ Features ]
-- [Installation]
-- [Usage]
-- [API Documentation]
-- [Folder Structure]
-- [Dependencies]
+- Features
+- Installation
+- Usage
+- API Documentation
+- Folder Structure
+- Dependencies
 
-#Features
-##Doctor Management:
->Register a new doctor.
->Sign in a doctor with JWT authentication.
+##Features
+###Doctor Management:
+- Register a new doctor.
+- Sign in a doctor with JWT authentication.
 
-##Patient Management:
->Register a new patient.
->Create medical reports for patients.
->Retrieve all reports of a specific patient.
+###Patient Management:
+- Register a new patient.
+- Create medical reports for patients.
+- Retrieve all reports of a specific patient.
 
-##Report Management:
->Retrieve reports of patients with a specific status.
+###Report Management:
+- Retrieve reports of patients with a specific status.
 
 
 #Installation
