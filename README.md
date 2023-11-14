@@ -9,17 +9,17 @@ The application uses Express.js for the server, MongoDB for data storage, and JS
 - Folder Structure
 - Dependencies
 
-##Features
-###Doctor Management:
+## Features
+### Doctor Management:
 - Register a new doctor.
 - Sign in a doctor with JWT authentication.
 
-###Patient Management:
+### Patient Management:
 - Register a new patient.
 - Create medical reports for patients.
 - Retrieve all reports of a specific patient.
 
-###Report Management:
+### Report Management:
 - Retrieve reports of patients with a specific status.
 
 
